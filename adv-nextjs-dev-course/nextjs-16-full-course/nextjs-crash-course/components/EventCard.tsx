@@ -19,6 +19,7 @@ const EventCard = ({ title, image, slug, location, date, time }: Props) => {
         width={410}
         height={300}
         className="poster"
+        loading="eager"
       />
 
       <div className="flex flex-row gap-2">
