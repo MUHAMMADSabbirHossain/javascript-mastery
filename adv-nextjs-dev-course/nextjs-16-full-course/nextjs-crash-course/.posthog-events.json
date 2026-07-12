@@ -1,0 +1,12 @@
+[
+  {
+    "event_name": "explore_events_clicked",
+    "event_description": "User clicked the 'Explore Events' CTA button on the homepage.",
+    "file": "components/ExploreBtn.tsx"
+  },
+  {
+    "event_name": "event_card_clicked",
+    "event_description": "User clicked on a featured event card to view event details.",
+    "file": "components/EventCard.tsx"
+  }
+]
