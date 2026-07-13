@@ -21,6 +21,7 @@ export const createBooking = async ({
     return { success: true };
   } catch (e) {
     console.error("create booking failed", e);
+
     return { success: false };
   }
 };
