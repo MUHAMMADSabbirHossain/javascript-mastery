@@ -51,18 +51,20 @@ BookingSchema.pre("save", async function (next) {
           `Event with ID ${booking.eventId} does not exist`,
         );
         error.name = "ValidationError";
-        return next(error);
+        // return next(error);
+        return error;
       }
     } catch {
       const validationError = new Error(
         "Invalid events ID format or database error",
       );
       validationError.name = "ValidationError";
-      return next(validationError);
+      // return next(validationError);
+      return validationError;
     }
   }
 
-  next();
+  // next();
 });
 
 // Create index on eventId for faster queries
@@ -79,6 +81,7 @@ BookingSchema.index(
   { eventId: 1, email: 1 },
   { unique: true, name: "uniq_event_email" },
 );
+
 const Booking = models.Booking || model<IBooking>("Booking", BookingSchema);
 
 export default Booking;
