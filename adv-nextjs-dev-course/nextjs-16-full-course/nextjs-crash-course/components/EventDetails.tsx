@@ -102,7 +102,7 @@ const EventDetails = async ({ params }: { params: Promise<string> }) => {
       </div>
 
       <div className="details">
-        {/*    Left Side - Event Content */}
+        {/* Left Side - Event Content */}
         <div className="content">
           <Image
             src={image}
@@ -145,7 +145,7 @@ const EventDetails = async ({ params }: { params: Promise<string> }) => {
           <EventTags tags={tags} />
         </div>
 
-        {/*    Right Side - Booking Form */}
+        {/* Right Side - Booking Form */}
         <aside className="booking">
           <div className="signup-card">
             <h2>Book Your Spot</h2>
@@ -167,7 +167,7 @@ const EventDetails = async ({ params }: { params: Promise<string> }) => {
         <div className="events">
           {similarEvents.length > 0 &&
             similarEvents.map((similarEvent: IEvent) => (
-              <EventCard key={similarEvent.title} {...similarEvent} />
+              <EventCard key={similarEvent.slug} {...similarEvent} />
             ))}
         </div>
       </div>
