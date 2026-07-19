@@ -13,6 +13,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
+      {
+        protocol: "https",
+        hostname: "coruscating-bienenstitch-df3a93.netlify.app",
+      },
     ],
   },
   async rewrites() {
