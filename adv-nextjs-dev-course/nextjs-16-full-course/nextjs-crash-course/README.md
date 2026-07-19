@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/MUHAMMADSabbirHossain/javascript-mastery?style=social)](https://github.com/MUHAMMADSabbirHossain/javascript-mastery)
 
-[Application Live Demo](<[text](https://coruscating-bienenstitch-df3a93.netlify.app/)>)
+[![Application Live Demo](https://coruscating-bienenstitch-df3a93.netlify.app/_next/image?url=%2Ficons%2Flogo.png&w=32&q=75)](https://coruscating-bienenstitch-df3a93.netlify.app/) [Application Live Demo](https://coruscating-bienenstitch-df3a93.netlify.app/)
 
 ## 📘 Overview
 
@@ -297,3 +297,5 @@ Run from each app folder:
 No license is currently specified in this repository. Add a `LICENSE` file to define reuse terms.
 
 ## 🙏 Acknowledgments
+
+Thanks to [nextjs-crash-course](https://github.com/bradtraversy/nextjs-crash-course) for the original course.
